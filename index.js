@@ -4,8 +4,8 @@ var score=0
 var userName = readlineSync.question('May I have your name? ');
 console.log('Hello ' + userName + '!');
  
- var myage=readlineSync.question('Do i live in Banglore? ');
- if(myage==="yes")
+ var a=readlineSync.question('Do i live in Banglore? ');
+ if(a==="yes")
  {
    console.log("Wrong");
    score=-1
@@ -18,8 +18,8 @@ console.log('Hello ' + userName + '!');
    console.log(score);
  }
 
-var ktmatt=readlineSync.question('Do i have a KT? ');
-if(ktmatt==="yes")
+var b=readlineSync.question('Do i have a KT? ');
+if(b==="yes")
 {
    console.log("Wrong");
    score=-1
@@ -32,44 +32,44 @@ else
    console.log(score);
  }
 
- var ktmatt=readlineSync.question('I am older than 18 ');
-if(ktmatt==="yes")
+ var c=readlineSync.question('I am older than 18 ');
+if(c==="yes")
 {
-   console.log("Wrong");
+   console.log("Right");
    score=-1
    console.log(score);
 }
 else
  {
-   console.log("Right");
+   console.log("Wrong");
    score+=1;
    console.log(score);
  }
 
- var ktmatt=readlineSync.question('Do i like playing cricket? ');
-if(ktmatt==="yes")
+ var d=readlineSync.question('Do i like playing cricket? ');
+if(d==="yes")
 {
-   console.log("Wrong");
+   console.log("Right");
    score=-1
    console.log(score);
 }
 else
  {
-   console.log("Right");
+   console.log("Wrong");
    score+=1;
    console.log(score);
  }
 
- var ktmatt=readlineSync.question('Do I like MSD? ');
-if(ktmatt==="yes")
+ var e=readlineSync.question('Do I like MSD? ');
+if(e==="yes")
 {
-   console.log("Wrong");
+   console.log("Right");
    score=-1
    console.log(score);
 }
 else
  {
-   console.log("Right");
+   console.log("Wrong");
    score+=1;
    console.log(score);
  }
